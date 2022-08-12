@@ -1,43 +1,55 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_apollo",
+        "remote":       "github",
+        "repository":   "gmw-project/device_xiaomi_apollo",
         "target_path":  "device/xiaomi/apollo",
-        "revision":     "sapphire"
+        "revision":     "12.1-clo-new"
+    },
+    {
+        "remote":       "github",
+        "repository":   "gmw-project/device_xiaomi_sm8250-common",
+        "target_path":  "device/xiaomi/sm8250-common",
+        "revision":     "12.1-clo-new"
+    },
+    {
+        "remote":       "github",
+        "repository":   "gmw-project/android_kernel_xiaomi_sm8250",
+        "target_path":  "kernel/msm-4.19",
+        "revision":     "msm-4.19-staging"
+    },
+    {
+        "remote":       "github",
+        "repository":   "gmw-project/vendor_xiaomi_apollo",
+        "target_path":  "vendor/xiaomi/apollo",
+        "revision":     "12.1-clo-new"
+    },
+    { 
+        "remote":       "github",
+        "repository":   "gmw-project/vendor_xiaomi_sm8250-common",
+        "target_path":  "vendor/xiaomi/sm8250-common",
+        "revision":     "12.1-clo-new"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_sm8250",
-        "target_path":  "kernel/xiaomi/sm8250",
-        "revision":     "sapphire"
-    },
-    {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
-        "revision":     "sapphire",
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "repository":   "android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
         "revision":     "sapphire-865"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_display",
+        "repository":   "android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
         "revision":     "sapphire-865"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "repository":   "android_hardware_qcom_gps",
         "target_path":  "hardware/qcom/gps",
         "revision":     "sapphire-865"
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_media",
+        "repository":   "android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "sapphire-865"
     },
@@ -49,7 +61,7 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_xiaomi",
+        "repository":   "android_hardware_xiaomi",
         "target_path":  "hardware/xiaomi",
         "revision":     "sapphire"
     }
